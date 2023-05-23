@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "slug": "cakecraftuae",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
-  }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "db73bf70-ee69-4856-b942-a3dd1ede324e"
+      }
+    },
+    "owner": "sms9092",
+    "sdkVersion": "48.0.0"
+  },
+  "name": "awesomeproject"
 }
