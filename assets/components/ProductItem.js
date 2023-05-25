@@ -15,6 +15,7 @@ const ProductItem = ({ item }) => {
         <View style={styles.detailsContainer}>
           <Text>Stock Quantity: {item.stock_quantity}</Text>
           <Text>Price: {item.price}</Text>
+          <Text>SKU: {item.sku}</Text>
         </View>
       )}
       {item.images[0] && (

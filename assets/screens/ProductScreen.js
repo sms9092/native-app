@@ -8,43 +8,30 @@ const ProductScreen = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
-  const [page, setPage] = useState(1);
-  const [hasMore, setHasMore] = useState(true);
-
 
   useEffect(() => {
-    if (hasMore) {
-    console.log(`ProductScreen.js requesting page: ${page}`);
-    ProductService.getProductData(page)
-    .then((response) => {
-    console.log(`ProductScreen.js received data:`, response.data);
-    if (response.data.length === 0) {
-    setHasMore(false);
-    } else {
-    const validData =
-    Array.isArray(response.data) &&
-    response.data.every(
-    (item) => 
-    item && 
-    typeof item.name === 'string' && 
-    item.price 
-    );
-    if (validData) {
-    setData((prevData) => [...prevData, ...response.data]);
-    } else {
-    console.error('Invalid data', response.data);
-    }
-    }
-    setLoading(false);
-    })
-    .catch((error) => {
-    console.error(error);
-    setLoading(false);
-    });
-    }
-   }, [page, hasMore]);
-   
-   
+    ProductService.getProductData()
+      .then((response) => {
+        const validData =
+          Array.isArray(response.data) &&
+          response.data.every(
+            (item) => 
+            item && 
+            typeof item.name === 'string' && 
+            item.price 
+          );
+        if (validData) {
+          setData(response.data);
+        } else {
+          console.error('Invalid data', response.data);
+        }
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setLoading(false);
+      });
+  }, []);
 
   if (loading) {
     return <Loading />;
@@ -67,8 +54,6 @@ const ProductScreen = () => {
         renderItem={({ item }) => <ProductItem item={item} />}
         keyExtractor={(item) => item.id.toString()}
         contentContainerStyle={styles.flatListContent}
-        onEndReached={() => setPage((prevPage) => prevPage + 1)}
-        onEndReachedThreshold={0.5}
       />
     </View>
   );
