@@ -8,9 +8,11 @@ const ProductScreen = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
+  const [Page, setPage] = useState(1);
+
 
   useEffect(() => {
-    ProductService.getProductData(2)
+    ProductService.getProductData(Page)
       .then((response) => {
         const validData =
           Array.isArray(response.data) &&
@@ -21,8 +23,7 @@ const ProductScreen = () => {
             item.price 
           );
         if (validData) {
-          setData(response.data);
-        } else {
+          setData(prevData => [...prevData, ...response.data]);        } else {
           console.error('Invalid data', response.data);
         }
         setLoading(false);
@@ -31,7 +32,7 @@ const ProductScreen = () => {
         console.error(error);
         setLoading(false);
       });
-  }, []);
+  }, [Page]);
 
   if (loading) {
     return <Loading />;
@@ -54,6 +55,8 @@ const ProductScreen = () => {
         renderItem={({ item }) => <ProductItem item={item} />}
         keyExtractor={(item) => item.id.toString()}
         contentContainerStyle={styles.flatListContent}
+        onEndReached={() =>setPage(Page + 1)}
+        onEndReachedThreshold={0.5}
       />
     </View>
   );
