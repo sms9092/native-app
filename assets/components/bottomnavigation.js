@@ -1,16 +1,18 @@
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { NavigationContainer } from '@react-navigation/native';
 
 
-import { Products } from './screens/Products';
-import { Orders } from './screens/Orders';
-import { Notifications } from './screens/Notifications';  
+import { ProductScreen } from '../screens/ProductScreen';
+import { Orders } from '../screens/Orders';
+import { Notifications } from '../screens/Notifications';  
   
  
 const Tab = createMaterialBottomTabNavigator();
 
  function BottomNavigation() {
     return (
+     <NavigationContainer>
       <Tab.Navigator
         initialRouteName="Products"
         activeColor="#e91e63"
@@ -18,7 +20,7 @@ const Tab = createMaterialBottomTabNavigator();
       >
         <Tab.Screen
           name="Products"
-          component={Products}
+          component={ProductScreen}
           options={{
             tabBarLabel: 'Products',
             tabBarIcon: ({ color }) => (
@@ -47,6 +49,7 @@ const Tab = createMaterialBottomTabNavigator();
           }}
         />
       </Tab.Navigator>
+      </NavigationContainer>
     );
   }
-  export { BottomNavigation }
+  export {BottomNavigation};

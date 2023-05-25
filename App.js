@@ -1,58 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, ScrollView } from 'react-native';
-import axios from 'axios';
-
+import React from 'react';
+import Productscreen from './assets/screens/ProductScreen';
+import {BottomNavigation} from './assets/components/bottomnavigation';
+import { NavigationContainer } from '@react-navigation/native';
 
 const App = () => {
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    axios.get('http://192.168.70.105:5000/products')
-.then(response => {
-  const validData = Array.isArray(response.data) &&
-    response.data.every(item => item && typeof item.name === 'string' && item.price);
-  if (validData) {
-    setData(response.data);
-  } else {
-    console.error('Invalid data', response.data);
-  }
-  setLoading(false);
-})
-.catch(error => {
-  console.error(error);
-  setLoading(false);
-});
-
-  }, []);
-
- 
-
-  const renderItem = ({ item }) => (
-    <View>
-      <Text>Name: {item.name}</Text>
-      <Text>Price: {item.price}</Text>
-    </View>
-  );
-
-  if (loading) {
-    return (
-      <View>
-        <Text>Loading...</Text>
-        {/* <Text>{data}</Text> */}
-      </View>
-    );
-  }
-
-  return (
-    <View>
-      <FlatList
-        data={data}
-        renderItem={renderItem}
-        keyExtractor={(item) => item.id.toString()}
-      />
-    </View>
-  );
+  return <Productscreen></Productscreen>;
+  // return <BottomNavigation/>;
 };
 
 export default App;
+

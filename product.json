@@ -1,0 +1,276 @@
+
+  {
+    "id": 28757,
+    "name": "Silicone Spatula - Pink",
+    "slug": "silicone-spatula-pink",
+    "permalink": "https://cakecraftuae.com/product/silicone-spatula-pink/",
+    "date_created": "2023-05-20T18:28:02",
+    "date_created_gmt": "2023-05-20T14:28:02",
+    "date_modified": "2023-05-20T18:28:05",
+    "date_modified_gmt": "2023-05-20T14:28:05",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "",
+    "short_description": "<p>This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!</p>\n",
+    "sku": "",
+    "price": "10",
+    "regular_price": "10",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 5,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": { "length": "", "width": "", "height": "" },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": false,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      { "id": 157, "name": "Equipments", "slug": "equipments" },
+      { "id": 334, "name": "New in", "slug": "new-in" },
+      { "id": 235, "name": "Tools", "slug": "tools" }
+    ],
+    "tags": [],
+    "images": [
+      {
+        "id": 28758,
+        "date_created": "2023-05-20T22:27:40",
+        "date_created_gmt": "2023-05-20T14:27:40",
+        "date_modified": "2023-05-20T22:27:40",
+        "date_modified_gmt": "2023-05-20T14:27:40",
+        "src": "https://cakecraftuae.com/wp-content/uploads/2023/05/Alibaba157484353.png", 
+        "name": "Alibaba157484353",
+        "alt": ""
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">AED</span>&nbsp;10.00</bdi></span>",
+    "related_ids": [9795, 9302, 8886, 14673, 9300],
+    "meta_data": [
+      {
+        "id": 809978,
+        "key": "_last_editor_used_jetpack",
+        "value": "classic-editor"
+      },
+      { "id": 809983, "key": "product_cost", "value": "" },
+      { "id": 809984, "key": "oliver_barcode", "value": "" },
+      { "id": 809985, "key": "visibility_oliver_pos", "value": "0" },
+      {
+        "id": 809996,
+        "key": "_stock_history",
+        "value": { "1684592884": 0, "1684592885": 0 }
+      },
+      { "id": 810004, "key": "_wc_facebook_sync_enabled", "value": "yes" },
+      { "id": 810005, "key": "fb_visibility", "value": "yes" },
+      { "id": 810006, "key": "fb_product_description", "value": "" },
+      {
+        "id": 810007,
+        "key": "_wc_facebook_product_image_source",
+        "value": "product"
+      },
+      { "id": 810008, "key": "_wc_facebook_commerce_enabled", "value": "no" },
+      {
+        "id": 810009,
+        "key": "fb_product_group_id",
+        "value": "6119972524704418"
+      },
+      {
+        "id": 810010,
+        "key": "fb_product_item_id",
+        "value": "6119972564704414"
+      },
+      {
+        "id": 810011,
+        "key": "tm_meta_cpf",
+        "value": {
+          "mode": "builder",
+          "override_display": "",
+          "override_final_total_box": ""
+        }
+      },
+      { "id": 810012, "key": "tm_meta", "value": "" },
+      { "id": 810013, "key": "product_image_on_hover", "value": "yes" },
+      { "id": 810014, "key": "custom_tab_priority1", "value": "40" },
+      { "id": 810015, "key": "custom_tab_priority2", "value": "41" },
+      { "id": 810016, "key": "header_view", "value": "default" },
+      { "id": 810017, "key": "layout", "value": "right-sidebar" },
+      { "id": 810018, "key": "_wpb_vc_js_status", "value": "false" },
+      {
+        "id": 810019,
+        "key": "_yoast_wpseo_primary_product_cat",
+        "value": "334"
+      },
+      {
+        "id": 810020,
+        "key": "_yoast_wpseo_primary_fb_product_set",
+        "value": ""
+      },
+      {
+        "id": 810021,
+        "key": "_yoast_wpseo_estimated-reading-time-minutes",
+        "value": "0"
+      },
+      { "id": 810022, "key": "_yoast_wpseo_wordproof_timestamp", "value": "" }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v20.7 - https://yoast.com/wordpress/plugins/seo/ -->\n<title>Silicone Spatula - Pink | Cake Craft UAE</title>\n<meta name=\"description\" content=\"This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!\" />\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<link rel=\"canonical\" href=\"https://cakecraftuae.com/product/silicone-spatula-pink/\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Silicone Spatula - Pink | Cake Craft UAE\" />\n<meta property=\"og:description\" content=\"This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!\" />\n<meta property=\"og:url\" content=\"https://cakecraftuae.com/product/silicone-spatula-pink/\" />\n<meta property=\"og:site_name\" content=\"Cake Craft UAE\" />\n<meta property=\"article:publisher\" content=\"https://www.facebook.com/bakeryingredients99/\" />\n<meta property=\"article:modified_time\" content=\"2023-05-20T14:28:05+00:00\" />\n<meta property=\"og:image\" content=\"https://cakecraftuae.com/wp-content/uploads/2023/05/Alibaba157484353.png\" />\n\t<meta property=\"og:image:width\" content=\"389\" />\n\t<meta property=\"og:image:height\" content=\"315\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://cakecraftuae.com/product/silicone-spatula-pink/\",\"url\":\"https://cakecraftuae.com/product/silicone-spatula-pink/\",\"name\":\"Silicone Spatula - Pink | Cake Craft UAE\",\"isPartOf\":{\"@id\":\"https://cakecraftuae.com/#website\"},\"datePublished\":\"2023-05-20T14:28:02+00:00\",\"dateModified\":\"2023-05-20T14:28:05+00:00\",\"description\":\"This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!\",\"breadcrumb\":{\"@id\":\"https://cakecraftuae.com/product/silicone-spatula-pink/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://cakecraftuae.com/product/silicone-spatula-pink/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://cakecraftuae.com/product/silicone-spatula-pink/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://cakecraftuae.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Shop\",\"item\":\"https://cakecraftuae.com/shop/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Silicone Spatula &#8211; Pink\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://cakecraftuae.com/#website\",\"url\":\"https://cakecraftuae.com/\",\"name\":\"Cake Craft UAE\",\"description\":\"#1 Supplier for Cake Decorating Tools in UAE\",\"publisher\":{\"@id\":\"https://cakecraftuae.com/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://cakecraftuae.com/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https://cakecraftuae.com/#organization\",\"name\":\"Cake Craft UAE\",\"url\":\"https://cakecraftuae.com/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https://cakecraftuae.com/#/schema/logo/image/\",\"url\":\"https://cakecraftuae.com/wp-content/uploads/2020/05/Untitled-5-1.png\",\"contentUrl\":\"https://cakecraftuae.com/wp-content/uploads/2020/05/Untitled-5-1.png\",\"width\":149,\"height\":80,\"caption\":\"Cake Craft UAE\"},\"image\":{\"@id\":\"https://cakecraftuae.com/#/schema/logo/image/\"},\"sameAs\":[\"https://www.facebook.com/bakeryingredients99/\"]}]}</script>\n<!-- / Yoast SEO plugin. -->",
+    "yoast_head_json": {
+      "title": "Silicone Spatula - Pink | Cake Craft UAE",
+      "description": "This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!",
+      "robots": {
+        "index": "index",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "canonical": "https://cakecraftuae.com/product/silicone-spatula-pink/",
+      "og_locale": "en_US",
+      "og_type": "article",
+      "og_title": "Silicone Spatula - Pink | Cake Craft UAE",
+      "og_description": "This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!",
+      "og_url": "https://cakecraftuae.com/product/silicone-spatula-pink/",
+      "og_site_name": "Cake Craft UAE",
+      "article_publisher": "https://www.facebook.com/bakeryingredients99/",
+      "article_modified_time": "2023-05-20T14:28:05+00:00",
+      "og_image": [
+        {
+          "width": 389,
+          "height": 315,
+          "url": "https://cakecraftuae.com/wp-content/uploads/2023/05/Alibaba157484353.png",
+          "type": "image/png"
+        }
+      ],
+      "twitter_card": "summary_large_image",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://cakecraftuae.com/product/silicone-spatula-pink/",
+            "url": "https://cakecraftuae.com/product/silicone-spatula-pink/",
+            "name": "Silicone Spatula - Pink | Cake Craft UAE",
+            "isPartOf": { "@id": "https://cakecraftuae.com/#website" },
+            "datePublished": "2023-05-20T14:28:02+00:00",
+            "dateModified": "2023-05-20T14:28:05+00:00",
+            "description": "This Silicone Spatula in a vibrant pink colour is made of high-quality silicone material that is durable and long-lasting. Its large size makes it perfect for scraping and spreading batter, dough, and other food items with ease. The flexible silicone material ensures that it can easily reach every corner of your mixing bowl or pan, making it a must-have tool for any kitchen. The bright pink color adds a pop of color to your kitchen and makes it easy to spot among your other utensils. This spatula is easy to clean and dishwasher safe, making it a convenient addition to your kitchen. Get your hands on the Silicone Spatula today and make your cooking and baking experience a breeze!",
+            "breadcrumb": {
+              "@id": "https://cakecraftuae.com/product/silicone-spatula-pink/#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://cakecraftuae.com/product/silicone-spatula-pink/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://cakecraftuae.com/product/silicone-spatula-pink/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://cakecraftuae.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Shop",
+                "item": "https://cakecraftuae.com/shop/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Silicone Spatula &#8211; Pink"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://cakecraftuae.com/#website",
+            "url": "https://cakecraftuae.com/",
+            "name": "Cake Craft UAE",
+            "description": "#1 Supplier for Cake Decorating Tools in UAE",
+            "publisher": { "@id": "https://cakecraftuae.com/#organization" },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://cakecraftuae.com/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://cakecraftuae.com/#organization",
+            "name": "Cake Craft UAE",
+            "url": "https://cakecraftuae.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://cakecraftuae.com/#/schema/logo/image/",
+              "url": "https://cakecraftuae.com/wp-content/uploads/2020/05/Untitled-5-1.png",
+              "contentUrl": "https://cakecraftuae.com/wp-content/uploads/2020/05/Untitled-5-1.png",
+              "width": 149,
+              "height": 80,
+              "caption": "Cake Craft UAE"
+            },
+            "image": { "@id": "https://cakecraftuae.com/#/schema/logo/image/" },
+            "sameAs": ["https://www.facebook.com/bakeryingredients99/"]
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": [
+        { "href": "https://cakecraftuae.com/wp-json/wc/v3/products/28757" }
+      ],
+      "collection": [
+        { "href": "https://cakecraftuae.com/wp-json/wc/v3/products" }
+      ]
+    }
+  }
+ 
