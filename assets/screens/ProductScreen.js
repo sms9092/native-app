@@ -10,7 +10,7 @@ const ProductScreen = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
-    ProductService.getProductData()
+    ProductService.getProductData(2)
       .then((response) => {
         const validData =
           Array.isArray(response.data) &&
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   searchInput: {
-    height: 40,
+    height: 60,
     borderColor: 'gray',
     borderWidth: 1,
     paddingHorizontal: 10,
